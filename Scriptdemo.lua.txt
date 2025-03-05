@@ -148,13 +148,7 @@ getgenv().SettingFarm ={
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
   end
   })
-  
-  AddButton(Tab1o, {
-     Name = "Maru kaitun",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
-  end
-  })
+
    AddButton(Tab2o, {
      Name = "kaitun maru",
     Callback = function()
