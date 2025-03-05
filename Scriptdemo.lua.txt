@@ -1,0 +1,399 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Shadow hub   [Premium]",
+         Animation = "Welcome Admin Cid☠︎︎"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=122291723595246",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Kaitun"})
+     local Tab3o = MakeTab({Name = "PVP/bounty"})
+     local Tab4o = MakeTab({Name = "khác"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Maru",
+    Callback = function()
+	  getgenv().Key = "MARU-57QX9-1APC-58MU-4YF8W-SI64H"
+getgenv().id = "1275376778776547414"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "W-azure Premium",
+    Callback = function()
+	  script_key = "cXjGJEcVjsFBZHnbwQJxWHJrQTajTmBG"
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Banana Premium",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "aed18748fdd5b3224f299eaa" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Teddy",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "redz hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "banana kaitun",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "aed18748fdd5b3224f299eaa"
+getgenv().SettingFarm ={
+        ["Hide UI"] = false,
+        ["Reset Teleport"] = {
+            ["Enabled"] = false,
+            ["Delay Reset"] = 3,
+            ["Item Dont Reset"] = {
+                ["Fruit"] = {
+                    ["Enabled"] = true,
+                    ["All Fruit"] = true, 
+                    ["Select Fruit"] = {
+                        ["Enabled"] = false,
+                        ["Fruit"] = {},
+                    },
+                },
+            },
+        },
+        ["White Screen"] = false,
+        ["Lock Fps"] = {
+            ["Enabled"] = false,
+            ["FPS"] = 20,
+        },
+        ["Get Items"] = {
+            ["Saber"] = true,
+            ["Godhuman"] =  true,
+            ["Skull Guitar"] = true,
+            ["Mirror Fractal"] = true,
+            ["Cursed Dual Katana"] = true,
+            ["Upgrade Race V2-V3"] = true,
+            ["Auto Pull Lever"] = true,
+        },
+        ["Select Hop"] = { -- 70% will have it
+            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+            ["Hop Find Dough King Get Mirror Fractal"] = false,
+            ["Hop Find Raids Castle [CDK]"] = true,
+            ["Hop Find Cake Queen [CDK]"] = true,
+            ["Hop Find Soul Reaper [CDK]"] = true,
+            ["Hop Find Darkbeard [SG]"] = true,
+            ["Hop Find Mirage [ Pull Lever ]"] = true,
+        },
+        ["Buy Haki"] = {
+            ["Enhancement"] = false,
+            ["Skyjump"] = true,
+            ["Flash Step"] = true,
+            ["Observation"] = true,
+        },
+        ["Sniper Fruit Shop"] = {
+            ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
+            ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
+        },
+        ["Lock Fruit"] = {},
+        ["Webhook"] = {
+            ["Enabled"] = false,
+            ["WebhookUrl"] = "",
+        }
+    }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Maru kaitun",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
+  end
+  })
+   AddButton(Tab2o, {
+     Name = "kaitun maru",
+    Callback = function()
+	  getgenv().Key = "MARU-57QX9-1APC-58MU-4YF8W-SI64H"
+getgenv().id = "1275376778776547414"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "auto bounty banana",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "aed18748fdd5b3224f299eaa"
+    getgenv().Setting = {
+        ["Team"] = "Pirate",
+        ["Method Click"] = {["Click Gun"] = false ,["Click Melee"] = true,["Click Sword"] = false, ["LowHealth"] = 5000, ["Delay Click"] = 0.3},
+        ["Race V4"] = {["Enable"] = true},
+        ["Webhook"] = {["Enabled"] = false,["Url Webhook"] = ""},
+        ["Misc"] = {["AutoBuyRandomandStoreFruit"] = true,["AutoBuySurprise"] = true},
+        ["SafeZone"] = {["Enable"] = true,["LowHealth"] = 4500,["MaxHealth"] = 8000,["Teleport Y"] = 2000},
+        ["Method Use Skill"] = {["Use Random"] = true,["Use Number"] = false},
+        ["Use random skill if player target low health"] = { --- suport only method use skill Number
+            ["Enabled"] = true,
+            ["Low Health"] = 4000,
+        },
+        ["Ignore Devil Fruit"] = {"Human-Human","Portal-Portal"},
+        ["Dodge Skill Player"] = true, --- Beta per 50% can dodge 
+        ["Weapons"] = {
+            ["Melee"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 2},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 3},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 5},
+                },
+            },
+            ["Blox Fruit"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 6},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 9},
+                    ["V"] = {["Enable"] = false,["HoldTime"] = 0.3,["Number"] = 0},
+                    ["F"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 8},
+                },
+            },
+            ["Gun"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 1},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 7},
+                },
+            },
+            ["Sword"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 1.5,["Number"] = 0},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["Number"] = 0},
+                },
+            },
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-BountyEz.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "auto buonty w-azure",
+    Callback = function()
+	  script_key = "cXjGJEcVjsFBZHnbwQJxWHJrQTajTmBG"
+getgenv().Team = "Pirates"
+getgenv().WebhookSetting = {
+    Enable = true,
+    Url = "",
+    Embed = true,
+    StoredFruit = true,
+    ImageEmbed = true,
+    CustomImage = false,
+    CustomImageUrl = "", --Your Url
+    OnServerHop = true,
+    BountyChanged = true,
+}
+getgenv().PlayerSetting = {
+    SafeMode = true,
+    SafeModeHealth = {4000,70},--Number And %, Start Safe Mode And Stop Safe Mode
+    UseRaceV3 = true,
+    SmartUseRaceV3= true,
+    DashIfV4 = true,
+    Dash=true,
+    IgnoreInCombat = true, --Turn This Off When Reseting Or Hop You Lost Bounty (Rare, Happens On Some Accounts)
+    ChatKillEnable = false,
+    Chat = {"Ez","You're just too bad"},
+    IgnoreFriends = true, --Serverhop if you friend in your server
+}
+getgenv().AttackSetting = {
+    ForceMelee = true,
+    ForceMeleeTime = 3.5,
+    StopAttack =true, --When Meet Below Condition
+    StopAttackAtHealth = 80,--%
+    FastAttack=true, -- Toggle Fast Attack
+}
+getgenv().UseSkillSetting = {
+    -- Three Methods: "Normal", "Fast", "Spam", "SpamAll"
+    MethodIfTargetOnV4 = "Fast",
+    MethodIfPlayerOnV4 = "Normal",
+    MethodIfTargetUseFruit = {Fruits={},Method="Fast"},
+    NormalMethod = "Normal",
+    LowHealthPlayerCondition = { --Player Can Attack Us, No Need For Slow Attack
+        Enable = true,
+        Health = 70,--%Health That Are Low
+        Method = "Fast",
+    },
+    LowHealthTargetCondition = {
+        Enable = true,
+        Health = 30,--%Health That Are Low
+        DelayFirstTime = {true,2}, --1 Is Enable, 2 Is Second To Delay Before Attack Again
+        Method = "Normal",
+        WaitTime = 1.5,-- If Normal Method, Wait Every Skill If It Hits Target
+    }
+}
+getgenv().WeaponsSetting = {
+    ["Melee"] = {
+        ["Enable"] = true,
+        ["Delay"] = 3, 
+        ["SwitchNextWeaponIfCooldown"] = true,
+        ["Skills"] = {
+            ["Z"] = {
+                ["Enable"] = true,
+                ["NoPredict"] = true, -- For Dragon Tailon, Disable it 
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+        [ "X"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+
+            ["C"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+        },
+    },
+    ["Blox Fruit"] = {
+        ["Enable"] = true,
+        ["Delay"] = 4,
+        ["SwitchNextWeaponIfCooldown"] = true,
+        ["Skills"] = {
+            ["Z"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 2,
+                ["TimeToNextSkill"] = 0,
+            },
+            ["X"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+
+            ["C"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+            ["V"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+            ["F"] = {
+                ["Enable"] = false,
+                ["HoldTime"] = 0,
+                ["TimeToNextSkill"] = 0,
+            },
+        },
+    },
+    ["Sword"] = {
+        ["Enable"] = true,
+        ["Delay"] = 0.5,
+        ["Skills"] = {
+            ["Z"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0.1,
+                ["TimeToNextSkill"] = 0,
+            },
+            ["X"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0.2,
+                ["TimeToNextSkill"] = 0,
+            },
+        },
+    },
+    ["Gun"] = {
+        ["Enable"] = true,
+        ["Delay"] = 0.5,
+        ["Skills"] = {
+            ["Z"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0.1,
+                ["TimeToNextSkill"] = 0,
+            },
+            ["X"] = {
+                ["Enable"] = true,
+                ["HoldTime"] = 0.1,
+                ["TimeToNextSkill"] = 0,
+            },
+        },
+    },
+}
+getgenv().Theme = { -- getgenv().Theme = false if you want to disable
+    OldTheme = true,
+    Name="Hutao", --"Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
+    Custom={
+            ["Enable"] = false,
+            ['char_size'] = UDim2.new(0.668, 0, 1.158, 0),
+            ['char_pos'] = UDim2.new(0.463, 0, -0.105, 0),
+            ['title_color'] = Color3.fromRGB(255, 221, 252),
+            ['titleback_color'] = Color3.fromRGB(169, 20, 255),
+            ['list_color'] = Color3.fromRGB(255, 221, 252),
+            ['liststroke_color'] = Color3.fromRGB(151, 123, 207),
+            ['button_color'] = Color3.fromRGB(255, 221, 252)
+       }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "show item",
+    Callback = function()
+	  getgenv().WaterMark = "cXjGJEcVjsFBZHnbwQJxWHJrQTajTmBG"
+script_key ='your key'
+repeat wait()
+until game:IsLoaded()
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))()
+  end
+  })
